@@ -1,0 +1,301 @@
+.sidebar{
+	background-color: whitesmoke;
+	height: 100%;
+	width: 180px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding: 20px 10px;
+	box-shadow: 5px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.logo{
+	height: 55px;
+	width: 55px;
+	border-radius: 60px;
+	border: none;
+}
+.logo-text{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
+.pages{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	gap: 150px;
+}
+
+.sidebar ul{
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar li{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: grey;
+}
+
+.square-logo{
+	height: 14px;
+	color: grey;
+}
+
+.sidebar li:hover{
+	background-color: rgb(195, 228, 239);
+	opacity: 0.9;
+	border-radius: 24px;
+	padding: 4px 6px;
+	color: deepskyblue;
+	font-weight: 600;
+}
+
+.sidebar li:hover img{
+	color: deepskyblue;
+}
+
+/* Navbar */
+
+
+.navbar{
+	background-color: whitesmoke;
+	padding: 10px;
+	box-shadow: 0px 0 5px rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.navbar ul{
+	list-style-type: none;
+	display: flex;
+	margin-right: 100px;
+	gap: 40px;
+}
+
+ul li{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+li a{
+	text-decoration: none;
+	color: grey;
+}
+li a:hover{
+	color: deepskyblue;
+}
+
+.user-profile{
+	display: flex;
+	justify-content: center;
+	gap: 8px;
+	margin-right: 10px;
+}
+
+.user-dropdown{
+	border: none;
+	background-color: transparent;
+}
+
+/* Main content */
+
+.main-content{
+	padding: 8px 6px;
+	margin-left: 180px;
+}
+
+.content-pages{
+	display: flex;
+	
+	align-items: center;
+	justify-content: space-between;
+}
+
+.content-pages ul{
+	list-style-type: none;
+	display: flex;
+	gap: 50px;
+	
+}
+
+.text{
+	color: deepskyblue;
+}
+
+.search-container{
+	position: relative;
+	display: inline-block;
+	margin-right:500px;
+}
+
+.search-img{
+	height: 18px;
+	color: gray;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	
+}
+
+.search-input{
+	border: 1px solid gray;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	border-radius: 20px;
+	width: 300px;
+	height: 40px;
+	padding-left: 30px;
+}
+
+.add-button{
+	position: relative;
+	padding: 6px 26px;
+	background-color: rgb(243, 243, 241);
+	color: rgb(10, 10, 87);
+	border: 1px solid gray;
+	border-radius: 16px;
+	cursor: pointer;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	margin-right: 40px;
+
+}
+
+.add-icon{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 18px;
+}
+
+.bid-details{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 40px;
+}
+
+.bid-response{
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.bid-response p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.respond{
+	color: green;
+}
+.unrespond{
+	color: red;
+}
+
+.bid-history{
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	margin-right: 35px;
+}
+
+.bid-history p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.bid-history .today{
+	color: gray;
+}
+.bid-history .yestarday{
+	color: gray;
+}
+
+.bid-history select{
+	padding: 10px;
+	border: none;
+	color: darkblue;
+	font-size: 16px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 15px rgba(0.1,0.1,0.1,0.1);
+}
+
+
+.filter-img{
+	width: 25px;
+}
+
+/* Bid Display */
+
+.bid-display{
+	padding: auto;
+}
+
+.bid-table-data{
+	list-style-type: none;
+	display: flex;
+	gap: 50px;
+	padding-left: 24px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 28px;
+	border-top-left-radius: 16px;
+	border-top-right-radius: 16px;
+	color: #fff;
+	background-color: rgb(18, 18, 136);
+}
+
+.bid-table-data li{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+.bid-response-data{
+	list-style-type: none;
+	display: flex;
+	gap: 50px;
+	padding-left: 24px;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 28px;
+}
+
+.more-details{
+	color: rgb(8, 8, 205);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.display-more-container{
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+}
