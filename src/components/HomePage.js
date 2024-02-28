@@ -1,16 +1,16 @@
-import React from 'react'
-import Sidebar from './Sidebar'
-import Navbar from './Navbar'
-import MainContent from './MainContent'
+import React from "react";
+import Sidebar from "./Sidebar";
+import Navbar from "./Navbar";
+import MainContent from "./MainContent";
 
 const HomePage = () => {
   return (
     <div>
-      <Navbar/>
+      <Navbar />
       <Sidebar />
-      <MainContent/>
+      <MainContent />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
